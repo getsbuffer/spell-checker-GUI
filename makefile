@@ -6,7 +6,7 @@ SOURCES = myspellGUI.cpp
 HEADERS = hashtable.h hashtable.hpp myspellGUI.h
 OBJECTS = $(SOURCES:.cpp=.o)
 
-TARGET = proj5GUI.x
+TARGET = SpellChecker
 
 all: $(TARGET)
 
